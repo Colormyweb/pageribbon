@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PageRibbon 1.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-02 19:27+0000\n"
+"PO-Revision-Date: 2026-06-02 19:27+0000\n"
+"Last-Translator: PageRibbon <noreply@pageribbon.local>\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: pageribbon\n"
+
+#: includes/settings.php:28
+msgid "Réglages PageRibbon"
+msgstr "PageRibbon Settings"
+
+#: includes/settings.php:29
+msgid "🎨 PageRibbon"
+msgstr "🎨 PageRibbon"
+
+#: includes/settings.php:144
+msgid "Permission refusée."
+msgstr "Permission denied."
+
+#: includes/settings.php:385
+#: includes/onboarding.php:96
+msgid "PageRibbon"
+msgstr "PageRibbon"
+
+#: includes/settings.php:389
+msgid "La cartographie visuelle de vos pages pour mieux les gérer au quotidien. Désactivable en un clic."
+msgstr "Visual mapping of your pages for easier day-to-day management. Disable in one click."
+
+#: includes/settings.php:394
+msgid "Réglages enregistrés."
+msgstr "Settings saved."
+
+#: includes/settings.php:408
+msgid "Rangez vos pages en couleur"
+msgstr "Organize your pages with color"
+
+#: includes/settings.php:413
+#, php-format
+msgid "PageRibbon range vos pages selon deux axes : le %1$s (la mise en page) et la %2$s (le groupe sémantique). Le modèle prime : quand une page a un modèle coloré, c'est sa couleur qui s'affiche ; la famille prend le relais sinon."
+msgstr "PageRibbon organizes your pages along two axes: the %1$s (the layout) and the %2$s (the semantic group). The template takes priority: when a page has a colored template, its color is shown; otherwise the family takes over."
+
+#: includes/settings.php:419
+msgid "Donnez une couleur à chacun, puis classez vos pages."
+msgstr "Assign a color to each, then sort your pages."
+
+#: includes/settings.php:432
+#, php-format
+msgid "page non classée sur %2$s (sans modèle ou sans famille)."
+msgid_plural "pages non classées sur %2$s (sans modèle ou sans famille)."
+msgstr[0] "unclassified page out of %2$s (without a template or family)."
+msgstr[1] "unclassified pages out of %2$s (without a template or family)."
+
+#: includes/settings.php:444
+msgid "Aller à la liste des pages"
+msgstr "Go to the page list"
+
+#: includes/settings.php:453
+msgid "PageRibbon : ACTIVÉ"
+msgstr "PageRibbon: ENABLED"
+
+#: includes/settings.php:455
+msgid "PageRibbon : DÉSACTIVÉ"
+msgstr "PageRibbon: DISABLED"
+
+#: includes/settings.php:459
+msgid "Interrupteur principal de PageRibbon. Quand il est activé, vos pages affichent leurs couleurs de classement à deux endroits : dans la liste des pages de l'administration, et sous forme de ruban coloré pendant l'édition d'une page. Le désactiver fait disparaître tous ces repères d'un seul clic."
+msgstr "Main PageRibbon switch. When enabled, your pages display their classification colors in two places: in the admin page list, and as a colored ribbon while editing a page. Disabling it removes all these markers in a single click."
+
+#: includes/settings.php:464
+msgid "Activer PageRibbon sur ce site"
+msgstr "Enable PageRibbon on this site"
+
+#: includes/settings.php:471
+msgid "Où afficher les marqueurs ?"
+msgstr "Where to display the markers?"
+
+#: includes/settings.php:473
+msgid "Activez ou désactivez chaque contexte indépendamment."
+msgstr "Enable or disable each context independently."
+
+#: includes/settings.php:480
+msgid "Liste des pages (admin)"
+msgstr "Page list (admin)"
+
+#: includes/settings.php:481
+msgid "colore les lignes dans Pages → Toutes les pages."
+msgstr "colors the rows in Pages → All Pages."
+
+#: includes/settings.php:490
+msgid "Filet vertical coloré à gauche de la ligne"
+msgstr "Colored vertical bar on the left of the row"
+
+#: includes/settings.php:497
+msgid "Pastille colorée devant le titre de la page"
+msgstr "Colored dot before the page title"
+
+#: includes/settings.php:504
+msgid "Fond pastel sur toute la ligne"
+msgstr "Pastel background across the whole row"
+
+#: includes/settings.php:513
+msgid "Éditeur de pages"
+msgstr "Page editor"
+
+#: includes/settings.php:514
+msgid "pendant que vous travaillez une page, un bandeau coloré et un panneau latéral rappellent à quel modèle et à quelle famille elle appartient. Le bon repère, au bon moment, sans quitter l'édition."
+msgstr "while you work on a page, a colored banner and a side panel remind you which template and family it belongs to. The right cue, at the right time, without leaving the editor."
+
+#: includes/settings.php:531
+msgid "Que voulez-vous distinguer ?"
+msgstr "What do you want to distinguish?"
+
+#: includes/settings.php:533
+msgid "Cochez les groupes de contenu à colorer. Cela inclut vos catégories d'articles, vos taxonomies WooCommerce, et toute autre taxonomie hiérarchique présente sur votre site."
+msgstr "Check the content groups to color. This includes your post categories, your WooCommerce taxonomies, and any other hierarchical taxonomy present on your site."
+
+#: includes/settings.php:538
+msgid "Aucun groupe hiérarchique détecté sur ce site."
+msgstr "No hierarchical group detected on this site."
+
+#: includes/settings.php:539
+msgid "PageRibbon colore les pages selon leurs catégories ou familles. Créez d'abord une taxonomie hiérarchique attachée à vos pages."
+msgstr "PageRibbon colors pages according to their categories or families. First create a hierarchical taxonomy attached to your pages."
+
+#: includes/settings.php:569
+msgid "Attribuez une couleur à chaque modèle et famille"
+msgstr "Assign a color to each template and family"
+
+#: includes/settings.php:571
+msgid "Choisissez une couleur de la palette pour chaque terme, ou laissez « Aucune couleur » pour le garder neutre par défaut. Toutes les couleurs respectent les standards d'accessibilité WCAG AA."
+msgstr "Choose a color from the palette for each term, or leave \"No color\" to keep it neutral by default. All colors meet WCAG AA accessibility standards."
+
+#: includes/settings.php:574
+msgid "À noter : si une page a à la fois un modèle et une famille colorés, c'est la couleur du modèle qui s'affiche. Et si un contenu a plusieurs termes colorés dans un même groupe (par exemple deux catégories), c'est le premier par ordre alphabétique qui est retenu."
+msgstr "Note: if a page has both a colored template and a colored family, the template color is shown. And if content has several colored terms within the same group (for example two categories), the first one in alphabetical order is used."
+
+#: includes/settings.php:610
+msgid "Aucun terme dans cette taxonomie pour l'instant."
+msgstr "No term in this taxonomy yet."
+
+#: includes/settings.php:634
+msgid "Aucune couleur"
+msgstr "No color"
+
+#: includes/settings.php:659
+msgid "Enregistrer les réglages"
+msgstr "Save settings"
+
+#: includes/admin-filters.php:94
+#, php-format
+msgid "Tous les %s"
+msgstr "All %s"
+
+#: includes/taxonomies.php:47
+msgid "Famille de page"
+msgstr "Page family"
+
+#: includes/taxonomies.php:48
+msgid "Familles"
+msgstr "Families"
+
+#: includes/taxonomies.php:51
+msgid "Modèle de page"
+msgstr "Page template"
+
+#: includes/taxonomies.php:52
+msgid "Modèles"
+msgstr "Templates"
+
+#: includes/taxonomies.php:205
+#, php-format
+msgid "Ajouter une %s"
+msgstr "Add a %s"
+
+#: includes/taxonomies.php:207
+#, php-format
+msgid "Modifier la %s"
+msgstr "Edit the %s"
+
+#: includes/taxonomies.php:209
+#, php-format
+msgid "Mettre à jour la %s"
+msgstr "Update the %s"
+
+#: includes/taxonomies.php:211
+#, php-format
+msgid "Toutes les %s"
+msgstr "All %s"
+
+#: includes/taxonomies.php:213
+#, php-format
+msgid "Rechercher dans les %s"
+msgstr "Search in %s"
+
+#: includes/taxonomies.php:225
+#, php-format
+msgid "%s parente"
+msgstr "Parent %s"
+
+#: includes/taxonomies.php:226
+#, php-format
+msgid "%s parente :"
+msgstr "Parent %s:"
+
+#: includes/taxonomies.php:228
+msgid "Aucun élément trouvé."
+msgstr "No items found."
+
+#: includes/taxonomies.php:229
+#, php-format
+msgid "← Retour à %s"
+msgstr "← Back to %s"
+
+#: includes/onboarding.php:105
+msgid "Afficher le panneau d'accueil PageRibbon"
+msgstr "Show the PageRibbon welcome panel"
+
+#: includes/onboarding.php:211
+msgid "Rangez vos pages WordPress en couleur"
+msgstr "Organize your WordPress pages with color"
+
+#: includes/onboarding.php:213
+msgid "PageRibbon transforme votre liste de pages en une cartographie visuelle : chaque page prend une couleur selon son classement. Repérez en un coup d'œil ce qui appartient à quoi."
+msgstr "PageRibbon turns your page list into a visual map: each page takes a color according to its classification. See at a glance what belongs to what."
+
+#: includes/onboarding.php:216
+msgid "Mode visuel désactivé — réactivez-le dans les réglages pour voir les couleurs."
+msgstr "Visual mode disabled — re-enable it in the settings to see the colors."
+
+#: includes/onboarding.php:219
+msgid "Configurer PageRibbon"
+msgstr "Configure PageRibbon"
+
+#: includes/onboarding.php:220
+msgid "Voir mes pages"
+msgstr "View my pages"
+
+#: includes/onboarding.php:226
+#, php-format
+msgid "Créez et gérez vos %1$s et %2$s, puis donnez-leur une couleur. Vos pages sont classées."
+msgstr "Create and manage your %1$s and %2$s, then give them a color. Your pages are classified."
+
+#: includes/onboarding.php:260
+msgid "Deux axes pour ranger vos pages : la mise en page (modèle) et le groupe sémantique (famille)."
+msgstr "Two axes to organize your pages: the layout (template) and the semantic group (family)."
+
+#: includes/onboarding.php:264
+msgid "Couleurs accessibles"
+msgstr "Accessible colors"
+
+#: includes/onboarding.php:265
+msgid "Une palette pastel conforme WCAG AA. Filet, pastille et fond colorés directement dans la liste des pages."
+msgstr "A WCAG AA-compliant pastel palette. Colored bar, dot and background right in the page list."
+
+#: includes/onboarding.php:269
+msgid "Désactivable en 1 clic"
+msgstr "Disable in 1 click"
+
+#: includes/onboarding.php:270
+msgid "Un interrupteur global fait disparaître tous les marqueurs. Aucun impact sur les visiteurs du site public."
+msgstr "A global switch makes all markers disappear. No impact on visitors to the public site."
+
+#: includes/onboarding.php:327
+msgid "PageRibbon — accès rapide"
+msgstr "PageRibbon — quick access"
+
+#: includes/onboarding.php:346
+#, php-format
+msgid "Deux axes pour ranger vos pages : les %1$s et les %2$s. Donnez-leur une couleur, puis classez vos pages."
+msgstr "Two axes to organize your pages: the %1$s and the %2$s. Give them a color, then sort your pages."
+
+#: includes/onboarding.php:356
+msgid "Mentions légales"
+msgstr "Legal notice"
+
+#: includes/onboarding.php:360
+msgid "Notre équipe"
+msgstr "Our team"
+
+#: includes/onboarding.php:366
+msgid "Le mode visuel est désactivé : aucune couleur ne s'affiche tant qu'il n'est pas réactivé."
+msgstr "Visual mode is disabled: no color is shown until it is re-enabled."
+
+#: includes/onboarding.php:371
+msgid "Réglages"
+msgstr "Settings"
+
+#: includes/onboarding.php:372
+msgid "Mes pages"
+msgstr "My pages"
+
+#: includes/palette.php:30
+msgid "Bleu"
+msgstr "Blue"
+
+#: includes/palette.php:36
+msgid "Vert"
+msgstr "Green"
+
+#: includes/palette.php:42
+msgid "Ambre"
+msgstr "Amber"
+
+#: includes/palette.php:48
+msgid "Violet"
+msgstr "Purple"
+
+#: includes/palette.php:54
+msgid "Rose"
+msgstr "Pink"
+
+#: includes/palette.php:60
+msgid "Turquoise"
+msgstr "Teal"
+
+#: includes/palette.php:66
+msgid "Corail"
+msgstr "Coral"
+
+#: includes/palette.php:72
+msgid "Indigo"
+msgstr "Indigo"
+
+#: includes/palette.php:78
+msgid "Olive"
+msgstr "Olive"
+
+#: includes/palette.php:84
+msgid "Gris"
+msgstr "Gray"
+
+#: includes/gutenberg.php:124
+msgid "Mode visuel"
+msgstr "Visual mode"
+
+#: includes/gutenberg.php:125
+msgid "aucun"
+msgstr "none"
+
+#: includes/gutenberg.php:126
+msgid "pas de couleur"
+msgstr "no color"
+
+#: includes/gutenberg.php:127
+msgid "🎨 Mode conception"
+msgstr "🎨 Design mode"
+
+#: includes/gutenberg.php:128
+msgid "Désactivez le plugin pour retirer tous les marqueurs visuels."
+msgstr "Disable the plugin to remove all visual markers."
+
